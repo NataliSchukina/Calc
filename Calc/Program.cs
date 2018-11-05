@@ -19,8 +19,10 @@ namespace Calc
                 {
                     Console.Write("Введите первое значение:");
                     float value1 = float.Parse(Console.ReadLine());
+
                     Console.Write("Введите необходимую операцию:");
                     char operation = char.Parse(Console.ReadLine());
+
                     Console.Write("Введите второе значение:");
                     float value2 = float.Parse(Console.ReadLine());
 
